@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Connecting Dots</string>
+    <string name="undo">Undo</string>
+    <string name="reset">Reset</string>
+</resources>
