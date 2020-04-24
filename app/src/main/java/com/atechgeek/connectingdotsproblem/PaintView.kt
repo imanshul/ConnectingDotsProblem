@@ -98,8 +98,9 @@ class PaintView(context: Context?, attributeSet: AttributeSet?) : View(context, 
         }
     }
 
-    fun clear(){
+    fun clear() {
         dotsList.clear()
+        startPoint = null
         isTouchEnabled = true
         invalidate()
     }
