@@ -92,6 +92,7 @@ class PaintView(context: Context?, attributeSet: AttributeSet?) : View(context, 
 
     fun undo() {
         if (dotsList.isNotEmpty()) {
+            startPoint = null
             dotsList.removeAt(dotsList.lastIndex)
             isTouchEnabled = true
             invalidate()
